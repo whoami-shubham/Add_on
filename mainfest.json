@@ -1,0 +1,19 @@
+{
+"mainfest_version": 2,
+"name": "sample",
+"version": "1.0",
+
+"description": " this is documentation",
+
+"icons":{
+	"48":""
+}
+,
+"content_scripts":[
+{
+	"matches":["*://*.mozilla.org/*"],
+	"js":["app.js"]
+}
+]
+
+}
